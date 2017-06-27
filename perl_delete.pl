@@ -25,7 +25,7 @@
 
 
 print "---------------------------------------------------\n";
-print "MAKBOX DELETE USER PASSWORD FOR CONTROL PANEL:\n";
+print "MAKBOX DELETE ACCOUNT :\n";
 print "---------------------------------------------------\n";
 
 print "Give your username:";

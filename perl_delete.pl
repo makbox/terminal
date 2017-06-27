@@ -25,7 +25,7 @@
 
 
 print "---------------------------------------------------\n";
-print "SMS PROGRAM DELETE USER PASSWORD FOR CONTROL PANEL:\n";
+print "MAKBOX DELETE USER PASSWORD FOR CONTROL PANEL:\n";
 print "---------------------------------------------------\n";
 
 print "Give your username:";
@@ -54,10 +54,10 @@ $cookies .= $chars[rand @chars] for 1..32;
 use DBI;
 
 my $driver = "mysql"; 
-my $db = "sms";
+my $db = "";
 my $link = "DBI:$driver:database=$db";
-my $user = "sms";
-my $pass = "6983450";
+my $user = "";
+my $pass = "";
 
 my $conn = DBI->connect($link, $user, $pass ) or die $DBI::errstr;
 

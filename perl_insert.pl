@@ -25,7 +25,7 @@
 
 
 print "-------------------------------------------\n";
-print "MAK CLOUD ADD NEW USER FOR CONTROL PANEL:  \n";
+print "MAKBOX ADD NEW ACCOUNY:  \n";
 print "-------------------------------------------\n";
 
 print "Give username:";
@@ -55,10 +55,10 @@ chomp ($username);
 use DBI;
 
 my $driver = "mysql"; 
-my $db = "1-cloud";
+my $db = "";
 my $link = "DBI:$driver:database=$db";
-my $user = "mak";
-my $pass = "6983450";
+my $user = "";
+my $pass = "";
 
 my $conn = DBI->connect($link, $user, $pass ) or die $DBI::errstr;
 

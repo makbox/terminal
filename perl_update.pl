@@ -24,7 +24,7 @@
 
 
 print "---------------------------------------------------\n";
-print "SMS PROGRAM UPDATE USER PASSWORD FOR CONTROL PANEL:\n";
+print "MAKBOX UPDATE ACCOUNT :\n";
 print "---------------------------------------------------\n";
 
 
@@ -40,10 +40,10 @@ use DBI;
 
 
 my $driver = "mysql"; 
-my $db = "1-cloud";
+my $db = "";
 my $link = "DBI:$driver:database=$db";
-my $user = "mak";
-my $pass = "6983450";
+my $user = "";
+my $pass = "";
 
 my $conn = DBI->connect($link, $user, $pass ) or die $DBI::errstr;
 
